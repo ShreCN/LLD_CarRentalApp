@@ -14,8 +14,6 @@ public class Vehicle extends BaseModel{
     @Enumerated
     private VehicleType vehicleType;
     private String companyName;
-    @Embedded
-    private PricingStrategy pricingStrategy;
     @Enumerated
     private VehicleStatus vehicleStatus;
     @ManyToOne
